@@ -1,0 +1,55 @@
+├── .
+│   ├── pubspec.lock
+│   └── pubspec.yaml
+├── backend
+│   ├── config
+│   │   └── cors.js
+│   ├── controllers
+│   │   ├── reservationController.js
+│   │   ├── trajetController.js
+│   │   └── villeController.js
+│   ├── middleware
+│   │   ├── auth.js
+│   │   ├── errorHandler.js
+│   │   └── validation.js
+│   ├── models
+│   │   ├── Reservation.js
+│   │   ├── Trajet.js
+│   │   └── Ville.js
+│   ├── routes
+│   │   ├── admin.js
+│   │   ├── reservations.js
+│   │   ├── trajets.js
+│   │   └── villes.js
+│   └── utils
+│       ├── helpers.js
+│       └── validationRules.js
+└── lib
+    ├── config
+    │   ├── api_config.dart
+    │   └── app_colors.dart
+    ├── main.dart
+    ├── models
+    │   ├── reservation.dart
+    │   ├── trajet.dart
+    │   └── ville.dart
+    ├── providers
+    │   ├── reservation_provider.dart
+    │   └── trajet_provider.dart
+    ├── screens
+    │   ├── confirmation_screen.dart
+    │   ├── home_screen.dart
+    │   ├── mes_reservations_screen.dart
+    │   ├── reservation_screen.dart
+    │   └── trajets_screen.dart
+    ├── services
+    │   ├── api_service.dart
+    │   ├── reservation_service.dart
+    │   └── trajet_service.dart
+    ├── utils
+    │   ├── formatters.dart
+    │   └── validators.dart
+    └── widgets
+        ├── custom_button.dart
+        ├── loading_widget.dart
+        └── trajet_card.dart
